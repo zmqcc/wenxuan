@@ -1,0 +1,12 @@
+#footer{width:990px;margin:0 auto;}
+.introduce{border-top:3px solid #eee;}
+.introduce img{display:block;width:990px;height:60px;}
+.introduce ul{width:461px;height:43px;margin:0 auto;}
+.introduce ul li{float:left;color:#606060;}
+.introduce ul li a{font:12px/43px "";margin:0 10px 0 8px;}
+.introduce ul li a:hover{color:#ed7c00;text-decoration:underline;}
+.addr{color:#7f7f7f;font:12px/20px "";}
+.addr p:nth-child(1){width:498px;margin:0 auto}
+.addr p:nth-child(2){width:432px;margin:0 auto;}
+.cooperation{width:696px;margin:0 auto;}
+.cooperation ul li{float:left;margin:10px 5px;}

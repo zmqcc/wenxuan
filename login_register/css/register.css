@@ -1,0 +1,19 @@
+#box{width:990px;height:937px;border:2px solid #ececec;margin:50px auto;}
+.form{margin-top:60px;color:#646464;font-size:14px;}
+.form .login{height:18px;font-size:16px;}
+.form .login a{color:#000;}
+.form .login a:hover{color:#ed7c00;text-decoration:underline;}
+.regi{border:1px solid #e6e6e6;height:857px;}
+.regi .email{height:85px;font-size:16px;}
+.regi .email p{margin:29px 331px 0 0;}
+.regi .email a{color:#3388ff;}
+form tr{height:111px;}
+form tr td p{margin-left:27px;}
+form tr td:nth-child(1){text-align:right;width:333px;}
+form tr td:nth-child(2) p input{width:266px;height:50px;border:1px solid #cccccc;padding:0 22px;}
+form tr td:nth-child(2) p input.te1{width:170px;height:50px;}
+form tr td:nth-child(2) p i{float:left;width:16px;height:16px;background:url(../images/1.png) no-repeat;margin-right:6px;}
+form tr td:nth-child(2) p span{display:block;height:16px;margin-top:14px;color:#ddd;}
+.option{height:18px;line-height:18px;margin-left:364px;}
+.option a{color:#1d66b2;}
+.sub{display:block;width:180px;height:45px;background:#c91518;border-radius:22px;color:#fff;font:100 18px/45px "";margin:0 auto;margin-top:66px;}
