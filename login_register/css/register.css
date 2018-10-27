@@ -19,4 +19,10 @@ form tr:nth-child(3) td:nth-child(2) p a{display:inline-block;width:120px;height
 
 .option{height:18px;line-height:18px;margin-left:364px;}
 .option a{color:#1d66b2;}
+.option a:hover{
+	text-decoration:underline;
+}
 .sub{display:block;width:180px;height:45px;background:#c91518;border-radius:22px;color:#fff;font:100 18px/45px "";margin:0 auto;margin-top:66px;}
+.sub:hover{
+	cursor:pointer;
+}

@@ -1,0 +1,144 @@
+#box{height:425px;width:990px;margin:20px auto;}
+.login{
+	float:left;
+	width:329px;
+	}
+.login h3{
+	height:40px;
+	font:16px/40px "";
+	color:#fff;
+	text-align:center;
+	background: url(../images/loginbg.png) repeat-x 0 -305px;
+}
+.login .main{
+	background:#fefced;
+	border:2px solid #ececec;
+	border-top:none;
+}
+.login .main form{
+	width:325px;
+	height:312px;
+	padding-top:14px;
+	font-size:12px;
+}
+.login .main form tr{
+	height:68px;
+}
+.login .main form tr.te{
+	height:108px;
+}
+.login .main form tr td:nth-child(1){
+	width:47px;
+	text-align:right;
+}
+.login .main form tr td:nth-child(2) p{
+	margin-left:14px;
+}
+.login .main form tr td:nth-child(2) p input.te1{
+	width:180px;
+	height:27px;
+	border:1px solid #e4e4e4;
+	background:#fff;
+	padding:0 10px;
+}
+.login .main form tr td:nth-child(2) p input.te2{
+	width:50px;
+	height:24px;
+	border:1px solid #e4e4e4;
+	background:#fff;
+	padding:0 5px;
+}
+.login .main form tr td:nth-child(2) p span{
+	color:#9d9d9d;
+	line-height:24px;
+}
+.login .main form tr:nth-child(3) td p span{
+	color:#4d5352;
+	font-size:12px;
+}
+.login .main form tr:nth-child(3) td p span a{
+	color:#1d66b2;
+}
+.login .main form tr:nth-child(3) td p span a:hover{
+	color:#ed7c00;text-decoration:underline;
+}
+.login .main form tr.te td:nth-child(2) p #sub{
+	width:138px;
+	height:48px;
+	background:url(../images/loginbg.png) no-repeat 0 -68px;
+	margin-top:23px;
+}
+.login .main form tr.te td:nth-child(2) p #sub:hover{
+	cursor:pointer;
+}
+.login .main form tr.te td:nth-child(2) p a{
+	color:#1d66b2;
+	display:inline-block;
+	height:48px;
+	vertical-align:middle;
+	margin-left:30px;
+}
+.login .main form tr.te td:nth-child(2) p a:hover{
+	text-decoration:underline;
+}
+.login .main .bottom{
+	width:265px;
+	height:57px;
+	border-top:1px solid #cccccc;
+	margin:0 auto;
+}
+.login .main .bottom p{
+	color:#646464;
+	font:12px/18px "";
+}
+.login .main .bottom ul{
+	margin-top:12px;
+	height:26px;
+}
+.login .main .bottom ul li{
+	float:left;
+	margin:0 5px;
+}
+.login .main .bottom ul li i{
+	display:inline-block;
+	width:23px;
+	height:23px;
+	background:url(../images/icon_cooperation.jpg) no-repeat;
+}
+.login .main .bottom ul li:nth-child(2) i{
+	 background-position:-23px 0;
+}
+.login .main .bottom ul li:nth-child(3) i{
+	 background-position:-46px 0;
+}
+.login .main .bottom ul li:nth-child(4) i{
+	 background-position:-138px 0;
+}
+.login .main .bottom ul li a{
+	color:#000;
+}
+.login .main .bottom ul li a:hover{
+	color:#ed7c00;text-decoration:underline;
+}
+ .register{
+	 float:left;
+	 width:581px;
+	height:351px;
+	 background:url(../images/loginbg2.png) no-repeat;
+	 margin-left:48px;
+ }
+.register p{
+	color:#525252;
+	font:700 12px/56px "";
+	text-align:center;
+	margin-top:149px;
+} 
+.register a{
+	display:block;
+	margin-left:240px;
+	color:#656464;
+	font-size:14px;
+}
+.register a:hover{
+	color:#ed7c00;
+}
