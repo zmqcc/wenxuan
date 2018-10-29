@@ -1,0 +1,325 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.margin {
+  width: 1210px;
+  margin: 0 auto; }
+
+#header {
+  height: 24px;
+  background: #f7f7f7;
+  line-height: 24px; }
+  #header .collect i {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: url(../image/common-bg.png); }
+  #header .collect a:hover {
+    color: #dc0014;
+    text-decoration: underline; }
+  #header p {
+    margin-left: 287px; }
+  #header .login_reg {
+    margin-left: 50px; }
+    #header .login_reg a {
+      color: #dc0014; }
+    #header .login_reg a:hover {
+      text-decoration: underline; }
+  #header ul li {
+    float: left; }
+    #header ul li span {
+      margin: 0 5px; }
+    #header ul li div {
+      display: inline-block;
+      padding: 0 5px; }
+      #header ul li div a:hover {
+        color: #dc0014;
+        text-decoration: underline; }
+      #header ul li div.te {
+        position: relative; }
+        #header ul li div.te:hover {
+          background: #fff; }
+          #header ul li div.te:hover ol, #header ul li div.te:hover dl {
+            display: block; }
+        #header ul li div.te b {
+          display: inline-block;
+          width: 7px;
+          height: 4px;
+          background: url(../image/common-bg.png) -22px 0;
+          margin-left: 10px; }
+        #header ul li div.te i {
+          display: inline-block;
+          width: 9px;
+          height: 16px;
+          background: url(../image/common-bg.png) -39px 0;
+          margin-right: 5px;
+          vertical-align: middle; }
+        #header ul li div.te ol {
+          z-index: 100;
+          border: 1px solid #e8e8e8;
+          border-top: none;
+          background: #fff;
+          position: absolute;
+          left: 0;
+          display: none; }
+          #header ul li div.te ol li {
+            border-top: 1px solid #ececec;
+            width: 78px;
+            height: 24px;
+            margin: 0 auto; }
+            #header ul li div.te ol li a {
+              margin-left: 5px; }
+      #header ul li div dl {
+        z-index: 100;
+        background: #fff;
+        display: none;
+        position: absolute;
+        right: 0;
+        width: 336px;
+        boreder: 1px solid #e8e8e8;
+        border-top: none; }
+        #header ul li div dl li {
+          float: left;
+          width: 146px;
+          margin: 10px; }
+          #header ul li div dl li div {
+            width: 146px;
+            height: 21px;
+            margin-top: 10px;
+            text-align: center;
+            line-height: 21px; }
+            #header ul li div dl li div.te1 {
+              background: url(../image/common-btn.png) 0 -682px; }
+            #header ul li div dl li div.te2 {
+              background: url(../image/common-btn.png) 0 -705px; }
+            #header ul li div dl li div a {
+              color: #fff; }
+              #header ul li div dl li div a:hover {
+                color: #fff;
+                text-decoration: underline; }
+
+#banner {
+  height: 60px;
+  background: url(../image/2000-60.jpg);
+  background-size: 100% 100%;
+  border-top: 1px solid #e8e8e8; }
+
+#logo {
+  height: 102px; }
+  #logo .mylogo {
+    float: left;
+    margin-top: 25px; }
+  #logo .search {
+    float: left;
+    margin: 27px 0 0 50px; }
+    #logo .search .find {
+      width: 530px;
+      height: 36px; }
+      #logo .search .find input:nth-child(1) {
+        float: left;
+        width: 396px;
+        height: 32px;
+        border: 2px solid #b3b3b3;
+        border-right: none;
+        padding: 0 8px; }
+      #logo .search .find input:nth-child(2) {
+        float: left;
+        width: 80px;
+        height: 36px;
+        background: #e43c3f;
+        color: #fff;
+        cursor: pointer; }
+      #logo .search .find a {
+        float: right;
+        display: inline-block;
+        width: 24px;
+        margin-top: 5px; }
+        #logo .search .find a:hover {
+          color: #dc0014;
+          text-decoration: underline; }
+    #logo .search .hot {
+      height: 26px;
+      line-height: 26px; }
+      #logo .search .hot span {
+        float: left;
+        color: #999; }
+      #logo .search .hot ul {
+        float: left; }
+        #logo .search .hot ul li {
+          float: left;
+          margin-left: 12px; }
+          #logo .search .hot ul li a {
+            color: #f00;
+            font-weight: 700; }
+            #logo .search .hot ul li a:hover {
+              text-decoration: underline; }
+  #logo .person {
+    float: right;
+    margin-top: 31px;
+    width: 272px;
+    height: 30px; }
+    #logo .person .common {
+      float: left;
+      width: 131px;
+      height: 28px;
+      border: 1px solid #efefef;
+      line-height: 28px;
+      background: #f7f7f7; }
+      #logo .person .common a {
+        margin-left: 5px; }
+        #logo .person .common a:hover {
+          color: #dc0014;
+          text-decoration: underline; }
+      #logo .person .common b {
+        display: inline-block;
+        width: 9px;
+        height: 8px;
+        background: url(../image/common-bg.png) -181px 0;
+        margin-right: 15px; }
+      #logo .person .common.my {
+        margin-right: 6px;
+        position: relative; }
+        #logo .person .common.my:hover {
+          background: #fff;
+          border-top: 3px solid #e4393c;
+          border-bottom: #fff; }
+          #logo .person .common.my:hover .mine {
+            display: block; }
+          #logo .person .common.my:hover a {
+            color: #dc0014; }
+        #logo .person .common.my i {
+          display: inline-block;
+          width: 17px;
+          height: 19px;
+          background: url(../image/common-bg.png) -77px 0;
+          margin-left: 15px;
+          vertical-align: middle; }
+        #logo .person .common.my .mine {
+          z-index: 100;
+          background: #f7f7f7;
+          position: absolute;
+          right: 0;
+          width: 298px;
+          height: 220px;
+          display: none; }
+          #logo .person .common.my .mine .log_reg {
+            background: #fff;
+            width: 296px;
+            height: 32px;
+            line-height: 32px;
+            margin: 1px; }
+            #logo .person .common.my .mine .log_reg span {
+              margin-left: 28px; }
+              #logo .person .common.my .mine .log_reg span a {
+                color: #dc0014; }
+                #logo .person .common.my .mine .log_reg span a:hover {
+                  text-decoration: underline; }
+          #logo .person .common.my .mine .myall {
+            width: 296px;
+            height: 82px; }
+            #logo .person .common.my .mine .myall ul {
+              width: 147px;
+              height: 79px;
+              padding-top: 3px;
+              background: #fff; }
+              #logo .person .common.my .mine .myall ul:nth-child(1) {
+                float: left; }
+              #logo .person .common.my .mine .myall ul:nth-child(2) {
+                float: right; }
+              #logo .person .common.my .mine .myall ul li {
+                height: 24px;
+                margin-left: 40px; }
+                #logo .person .common.my .mine .myall ul li a {
+                  color: #1a66b3; }
+                  #logo .person .common.my .mine .myall ul li a:hover {
+                    color: #dc0014; }
+          #logo .person .common.my .mine .hotactive {
+            border-top: 1px solid #e8e8e8;
+            height: 20px;
+            line-height: 20px;
+            paddinig-left: 1px; }
+            #logo .person .common.my .mine .hotactive span {
+              display: inline-block;
+              width: 3px;
+              height: 20px;
+              background: #e4393c;
+              margin-right: 6px;
+              vertical-align: middle; }
+          #logo .person .common.my .mine .active {
+            width: 296px;
+            height: 81px;
+            margin: 0 auto;
+            background: #fff; }
+            #logo .person .common.my .mine .active ul {
+              margin: 3px 0 0 30px; }
+              #logo .person .common.my .mine .active ul li {
+                height: 24px;
+                line-height: 24px; }
+                #logo .person .common.my .mine .active ul li a {
+                  color: #dc0014; }
+                  #logo .person .common.my .mine .active ul li a:hover {
+                    text-decoration: underline; }
+      #logo .person .common.shopcar i {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background: url(../image/common-bg.png) -124px 0;
+        margin-left: 15px;
+        vertical-align: middle; }
+
+#nav {
+  height: 40px;
+  background: #e4393c; }
+  #nav .all {
+    position: relative;
+    float: left;
+    width: 210px;
+    height: 40px;
+    background: #c91518; }
+    #nav .all p {
+      color: #fff;
+      line-height: 40px;
+      margin-left: 20px;
+      font-weight: 700; }
+    #nav .all .allgoods {
+      position: absolute;
+      z-index: 100;
+      left: 0;
+      border: 2px solid #c91518;
+      border-top: none;
+      width: 206px;
+      padding-top: 5px; }
+      #nav .all .allgoods dl {
+        width: 194px;
+        border-bottom: 1px dashed #d6d6d6;
+        padding: 3px 6px 5px; }
+        #nav .all .allgoods dl:nth-child(1) dd a {
+          color: #f00; }
+        #nav .all .allgoods dl:nth-child(14) {
+          height: 34px; }
+          #nav .all .allgoods dl:nth-child(14) a {
+            display: inline-block;
+            width: 194px;
+            color: #f00;
+            line-height: 34px;
+            text-align: center;
+            font-weight: 700; }
+        #nav .all .allgoods dl a:hover {
+          color: #dc0014;
+          text-decoration: underline; }
+        #nav .all .allgoods dl dd {
+          float: left;
+          width: 194px;
+          height: 26px;
+          line-height: 26px;
+          color: #000;
+          font-weight: 700; }
+        #nav .all .allgoods dl dt {
+          float: left;
+          height: 20px;
+          line-height: 20px; }
+          #nav .all .allgoods dl dt span {
+            margin: 0 8px; }
+  #nav ul {
+    float: left; }

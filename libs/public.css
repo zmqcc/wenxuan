@@ -16,12 +16,12 @@ textarea{resize:none;}/*禁止多行文本框被用户改变大小*/
 
 .layout{margin:0 auto;}/*页面居中*/
 
-.float-left{float: left;}
-.float-right{float:right;}
+.float-left{float: left;}/*左浮动*/
+.float-right{float:right;}/*右浮动*/
 
 
-.valign{text-align:center;}
-.valign img{vertical-align:middle;}
+.valign{text-align:center;}/*文本水平居中*/
+.valign img{vertical-align:middle;}/*垂直居中*/
 .valign:after{content:"";display:inline-block; vertical-align:middle; height:100%;}
 
 
