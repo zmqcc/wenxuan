@@ -289,7 +289,9 @@
       border: 2px solid #c91518;
       border-top: none;
       width: 206px;
-      padding-top: 5px; }
+      padding-top: 5px;
+      padding-bottom: 14px;
+      background: #fff; }
       #nav .all .allgoods dl {
         width: 194px;
         border-bottom: 1px dashed #d6d6d6;
@@ -305,9 +307,6 @@
             line-height: 34px;
             text-align: center;
             font-weight: 700; }
-        #nav .all .allgoods dl a:hover {
-          color: #dc0014;
-          text-decoration: underline; }
         #nav .all .allgoods dl dd {
           float: left;
           width: 194px;
@@ -315,11 +314,183 @@
           line-height: 26px;
           color: #000;
           font-weight: 700; }
+          #nav .all .allgoods dl dd a:hover {
+            color: #f00; }
         #nav .all .allgoods dl dt {
           float: left;
           height: 20px;
           line-height: 20px; }
           #nav .all .allgoods dl dt span {
             margin: 0 8px; }
+          #nav .all .allgoods dl dt a:hover {
+            color: #f00;
+            text-decoration: underline; }
   #nav ul {
     float: left; }
+    #nav ul li {
+      float: left; }
+      #nav ul li a {
+        display: inline-block;
+        color: #fff;
+        line-height: 40px;
+        padding: 0 24px;
+        font-weight: 700; }
+        #nav ul li a:hover {
+          background: #a40000; }
+
+#main {
+  height: 1000px; }
+
+#footer {
+  background: #f7f7f7; }
+  #footer .join {
+    border-top: 4px solid #e4e4e4;
+    height: 129px; }
+  #footer .platform {
+    height: 118px; }
+    #footer .platform ul {
+      height: 118px; }
+      #footer .platform ul li {
+        float: left;
+        border: 1px solid #efefef;
+        background: #fff;
+        width: 297px;
+        height: 116px;
+        margin-right: 4px; }
+        #footer .platform ul li:nth-of-type(4) {
+          margin-right: 0; }
+          #footer .platform ul li:nth-of-type(4) a {
+            display: inline-block;
+            margin-top: 4px;
+            width: 66px;
+            height: 22px;
+            background: #ebebeb;
+            line-height: 22px;
+            padding-left: 6px; }
+        #footer .platform ul li img {
+          float: left;
+          width: 80px;
+          heeight: 80px;
+          margin: 18px 14px 9px; }
+        #footer .platform ul li .net h4 {
+          margin-top: 11px;
+          font: 700 18px/26px "";
+          color: #666; }
+        #footer .platform ul li .net p {
+          color: #666;
+          line-height: 18px; }
+        #footer .platform ul li:nth-of-type(2) a {
+          display: inline-block;
+          margin-top: 22px;
+          width: 90px;
+          height: 22px;
+          background: #ebebeb;
+          line-height: 22px; }
+          #footer .platform ul li:nth-of-type(2) a i {
+            vertical-align: middle;
+            margin: 3px 5px; }
+          #footer .platform ul li:nth-of-type(2) a:nth-of-type(1) i {
+            display: inline-block;
+            width: 14px;
+            height: 16px;
+            background: url(../image/apple.png); }
+          #footer .platform ul li:nth-of-type(2) a:nth-of-type(2) i {
+            display: inline-block;
+            width: 14px;
+            height: 16px;
+            background: url(../image/android.png); }
+  #footer .server {
+    height: 211px;
+    border-bottom: 1px solid #e8e8e8; }
+    #footer .server ul {
+      float: left;
+      margin-top: 47px;
+      width: 140px;
+      margin-right: 35px; }
+      #footer .server ul:nth-of-type(7) {
+        margin-right: 0; }
+      #footer .server ul p {
+        font: 700 16px/28px "";
+        border-bottom: 1px solid #c9c9c9;
+        color: #666;
+        text-indent: 35px; }
+      #footer .server ul ol {
+        margin-left: 5px;
+        margin-top: 5px; }
+        #footer .server ul ol i {
+          display: inline-block;
+          width: 4px;
+          height: 4px;
+          background: url(../image/repeat-bg.png) -5px -7px;
+          margin-right: 12px;
+          vertical-align: middle; }
+        #footer .server ul ol a {
+          line-height: 20px; }
+          #footer .server ul ol a:hover {
+            color: #f00;
+            text-decoration: underline; }
+        #footer .server ul ol li span {
+          margin-right: 12px;
+          vertical-align: middle; }
+        #footer .server ul ol li:nth-of-type(1) span {
+          display: inline-block;
+          width: 13px;
+          height: 18px;
+          background: url(../image/repeat-bg.png) -1px -26px; }
+        #footer .server ul ol li:nth-of-type(2) span {
+          display: inline-block;
+          width: 14px;
+          height: 16px;
+          background: url(../image/repeat-bg.png) -1px -55px; }
+        #footer .server ul ol li:nth-of-type(3) span {
+          display: inline-block;
+          width: 14px;
+          height: 17px;
+          background: url(../image/repeat-bg.png) -1px -79px; }
+        #footer .server ul ol li:nth-of-type(4) {
+          line-height: 24px; }
+          #footer .server ul ol li:nth-of-type(4) span {
+            display: inline-block;
+            width: 16px;
+            height: 15px;
+            background: url(../image/repeat-bg.png) 0 -106px; }
+
+.promise {
+  background: #ececec; }
+
+.bottom {
+  background: #f9f9f9;
+  padding-bottom: 38px; }
+  .bottom a:hover {
+    color: #f00;
+    text-decoration: underline; }
+  .bottom ul {
+    height: 38px;
+    margin-top: 26px;
+    width: 318px;
+    margin: 0 auto;
+    line-height: 38px;
+    margin-top: 26px; }
+    .bottom ul li {
+      float: left; }
+      .bottom ul li span {
+        margin: 0 18px; }
+  .bottom .manage {
+    height: 56px;
+    line-height: 56px;
+    width: 680px;
+    margin: 0 auto; }
+    .bottom .manage span {
+      margin: 0 3px; }
+  .bottom .service {
+    height: 18px;
+    line-height: 18px;
+    width: 392px;
+    margin: 0 auto; }
+    .bottom .service span {
+      margin: 0 3px; }
+    .bottom .service a {
+      margin: 0 6px; }
+  .bottom .gongshang {
+    width: 50px;
+    margin: 0 auto; }
