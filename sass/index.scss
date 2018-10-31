@@ -1,8 +1,5 @@
 @import "public";
-*{
-	margin:0;
-	padding:0;
-}
+*{margin:0;padding:0;}
 .margin{
 	width:1210px;
 	margin:0 auto;
@@ -250,8 +247,190 @@
 		}
 	}
 }
-//主干
-#main{height:1000px;}
+//轮播图
+.banner{
+	height:480px;position:relative;
+	.box{
+		height:480x;position:absolute;
+		img{
+			position:absolute;
+			opacity:0;
+		}
+	}
+	.find{
+		position:absolute;
+		bottom:0;
+		right:0;
+		z-index:10;
+		height:110px;
+		width:980px;
+		img{
+			float:left;
+			opacity:0.5;
+			&.active{opacity:1;border:5px solid #fff;}
+		}
+	}	
+}
+
+//秒杀
+#miaosha{
+	height:227px;width:996px;margin-left:214px;
+	.time{
+		height:60px;
+		.float-left{
+			img{margin-top:26px;}
+			.chang{
+				margin:22px 0 0 13px;font:18px/25px "";
+				i{display:$iblock;width:78px;height:25px;background:#ff0000;color:#fff;text-align:center;}
+			}
+			.daojishi{
+				margin:20px 0 0 20px;
+				span{display:$iblock;width:28px;height:28px;background:#3d3d3d;border-radius:3px;color:#fff;text-align:center;line-height:28px;font-size:16px;}
+				i{display:$iblock;width:16px;height:28px;font-size:18px;text-align:center;}
+			}
+			p{color:#999999;margin:16px 0 0 20px;line-height:44px;}
+		}
+		.float-right{
+			margin:22px 3px 0 0;
+			a{
+				color:#a0a0a0;lin-height:38px;
+				img{vertical-align:middle;}
+			}
+		}
+	}
+	.list{
+		height:165px;border:1px solid #f1f1f1;
+		ul{
+			li{
+				float:left;border-right:1px solid #f1f1f1;height:165px;width:198px;
+				&:nth-child(5){border-right:0;}
+				a{
+					display:block;
+					img{
+						width:122px;height:122px;margin-top:10px;margin-left:40px;
+						&:hover{opacity:0.5;}
+					}
+					.price{color:#ff0000;font:16px/16px "";text-align:center;margin-bottom:5px;}
+					.yuan-price{color:#9a9a9a;font:12px/12px "";text-align:center;text-decoration:line-through;}
+				}
+			}
+		}
+	}
+}
+
+//初夏好书
+#summer{
+	height:227px;width:996px;margin-left:214px;
+	.top{
+		height:60px;
+		img{margin-top:26px;}
+		.chang{
+			margin:11px 0 0 13px;font:18px/49px "";
+		}
+		p{color:#999999;margin:16px 0 0 20px;line-height:44px;}
+		
+	}
+	.list{
+			height:165px;border:1px solid #f1f1f1;
+			ul{
+				li{
+					float:left;border-right:1px solid #f1f1f1;height:165px;width:198px;
+					&:nth-child(5){border-right:0;}
+					&:nth-child(1) a .func span{background:#d1fff5;color:#03655a;}
+					&:nth-child(2) a .func span{background:#ffe4e4;color:#cb3939;}
+					&:nth-child(3) a .func span{background:#ffdfd1;color:#b95925;}
+					&:nth-child(4) a .func span{background:#d1deff;color:#4e47c6;}
+					&:nth-child(5) a .func span{background:#ffead3;color:#97622a;}
+					a{
+						display:block;
+						.title{color:#000;font:700 18px/28px "";text-align:center;}
+						.func{
+							height:24px;
+							span{
+								display:block;width:84px;height:24px;font:14px/24px "";border-radius:8px;margin-left:57px;text-align:center;
+							}	
+						}
+						img{
+							width:100px;height:100px;margin:10px 0 0 45px;
+							&:hover{opacity:0.5;}
+						}
+					}
+				}
+			}
+		}
+}
+//文轩聚焦
+#focus{
+	margin-top:25px;height:573px;
+	.top{
+		height:50px;
+		img{margin-top:14px;}
+		.chang{
+			font:18px/50px "";margin-left:12px;
+		}
+		p{color:#999999;margin:6px 0 0 20px;line-height:44px;}
+	}
+	.list{
+			border:1px solid #f1f1f1;
+			ul{
+				li{
+					float:left;border-right:1px solid #f1f1f1;height:260px;width:240px;position:relative;
+					&:nth-child(1){border-bottom:1px solid #f1f1f1;}
+					&:nth-child(2){border-bottom:1px solid #f1f1f1;}
+					&:nth-child(3){border-bottom:1px solid #f1f1f1;}
+					&:nth-child(4){border-bottom:1px solid #f1f1f1;}
+					&:nth-child(5){border-bottom:1px solid #f1f1f1;}
+					&:nth-child(5){border-right:0;}
+					&:nth-child(10){border-right:0;}	
+					a{
+						display:block;
+						.book{
+							height:177px;position:relative;
+							img{position:absolute;left:0;right:0;top:0;bottom:0;margin:auto;}
+						}
+						.descri{height:40px;line-height:40px;padding-left:30px;}
+						.price{
+							padding:0 30px;height:30px;line-height:30px;
+							span{color:#f00;}
+							i{text-decoration:line-through;color:#b5b2b3;}
+						}
+						p{
+							display:none;background:#000;height:89px;opacity:0.7;position:absolute;bottom:0px;width:100%;
+							span{display:block;margin:10px 0 0 14px;color:#fff;line-height:18px;}
+						}
+					}
+				}
+			}
+		}
+}
+
+//特色推荐
+#recommend{
+	.top{
+		height:59px;
+		img{margin-top:14px;}
+		.special{font:18px/50px "";margin-left:12px;}
+		ul{
+			li{
+				float:left;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //底部
 #footer{
 	background:$background;
