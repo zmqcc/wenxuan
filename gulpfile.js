@@ -14,8 +14,12 @@ gulp.task('sass',function(){
 gulp.task('img',function(){
 	return gulp.src('./img/*').pipe(imagemin()).pipe(gulp.dest('dist/image'));
 })
+gulp.task('photo',function(){
+	return gulp.src('./shop/photo/*').pipe(imagemin()).pipe(gulp.dest('dist/photo'));
+})
 
 gulp.task('watch',function(){
 	gulp.watch('./sass/*.scss',['sass']);
 	gulp.watch('./img/*',['img']);
+	gulp.watch('./shop/photo/*',['photo']); 
 })

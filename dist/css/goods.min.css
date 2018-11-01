@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.details {
+  width: 990px;
+  height: 582px;
+  margin: 100px auto; }
+  .details .good {
+    width: 352px; }
+    .details .good .photo {
+      width: 350px;
+      height: 350px;
+      border: 1px solid #e8e8e8;
+      position: relative; }
+      .details .good .photo .smallimg img {
+        width: 350px;
+        height: 350px; }
+      .details .good .photo .filter {
+        width: 200px;
+        height: 200px;
+        background: #fff;
+        opacity: 0.5;
+        border: 1px solid #e0ded8;
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: none; }
+      .details .good .photo .rob {
+        width: 80px;
+        height: 80px;
+        background: url(../photo/pro_xsq.png) no-repeat;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 200; }
+      .details .good .photo .bigimg {
+        width: 400px;
+        height: 400px;
+        border: 1px solid #999999;
+        position: absolute;
+        top: 0;
+        left: 364px;
+        display: none;
+        overflow: hidden; }
+        .details .good .photo .bigimg .jingzi {
+          width: 700px;
+          height: 700px;
+          position: absolute;
+          left: 0;
+          top: 0; }
+          .details .good .photo .bigimg .jingzi img {
+            width: 700px;
+            height: 700px; }
+    .details .good .batch {
+      padding: 20px 0 0 60px; }
+      .details .good .batch a {
+        display: block;
+        width: 104px;
+        height: 27px;
+        background: url(../photo/common-btn.png) 0 -728px; }
+    .details .good .share {
+      padding: 10px 0 0 36px; }
+      .details .good .share span {
+        line-height: 28px; }
+        .details .good .share span i:hover {
+          color: #f00;
+          text-decoration: underline; }
+      .details .good .share a {
+        display: inline-block;
+        width: 86px;
+        height: 27px;
+        background: url(../photo/common-btn.png) no-repeat;
+        margin-left: 30px;
+        vertical-align: middle; }
+
+.describe {
+  width: 620px;
+  margin-left: 18px; }
+  .describe .name {
+    border-bottom: 1px dashed #e7e7e7; }
+    .describe .name .bookname {
+      color: #000;
+      font: 700 18px/26px ""; }
+    .describe .name .tel {
+      color: #f00;
+      font: 12px/34px ""; }
+    .describe .name .phone {
+      color: #f00;
+      font: 12px/48px "";
+      margin-top: 6px; }
+  .describe .detail {
+    border-bottom: 1px dashed #e7e7e7;
+    margin-top: 12px; }
+    .describe .detail table {
+      margin: 12px 0; }
+      .describe .detail table tr td:nth-child(1) {
+        height: 30px; }
+      .describe .detail table tr td:nth-child(2) {
+        padding-left: 15px; }
+      .describe .detail table tr:nth-child(1) td:nth-child(2) span {
+        text-decoration: line-through;
+        color: #666;
+        font-size: 12px; }
+      .describe .detail table tr:nth-child(2) td:nth-child(2) span {
+        color: #e4393d;
+        font-size: 20px; }
+      .describe .detail table tr:nth-child(2) td:nth-child(2) a {
+        margin-left: 40px;
+        color: #1a66b3; }
+        .describe .detail table tr:nth-child(2) td:nth-child(2) a:hover {
+          color: #f00;
+          text-decoration: underline; }
+      .describe .detail table tr:nth-child(3) td:nth-child(2) a, .describe .detail table tr:nth-child(4) td:nth-child(2) a {
+        color: #1a66b3; }
+        .describe .detail table tr:nth-child(3) td:nth-child(2) a:hover, .describe .detail table tr:nth-child(4) td:nth-child(2) a:hover {
+          color: #f00;
+          text-decoration: underline; }
+      .describe .detail table tr:nth-child(5) td:nth-child(2), .describe .detail table tr:nth-child(6) td:nth-child(2) {
+        color: #e4393d; }
+  .describe .addnum .num {
+    height: 52px; }
+    .describe .addnum .num span {
+      display: inline-block;
+      width: 80px;
+      height: 52px;
+      line-height: 52px; }
+    .describe .addnum .num #btn1, .describe .addnum .num #btn2 {
+      width: 13px;
+      height: 13px;
+      border: 1px solid #d5d5d5;
+      font: 12px/12px ""; }
+    .describe .addnum .num #txt {
+      width: 34px;
+      height: 20px;
+      border: 1px solid #a0a0a0;
+      text-align: center; }
+  .describe .addnum .car {
+    height: 45px; }
+    .describe .addnum .car a {
+      display: block;
+      width: 172px;
+      height: 37px;
+      background: url(../photo/common-btn.png) 0 -38px; }
+  .describe .addnum .service {
+    height: 56px;
+    line-height: 56px; }
+    .describe .addnum .service i {
+      margin-left: 8px; }
+  .describe .addnum ul {
+    margin-left: 75px;
+    height: 20px;
+    line-height: 20px; }
+    .describe .addnum ul li {
+      float: left; }
+      .describe .addnum ul li span {
+        margin: 0 15px; }
+      .describe .addnum ul li a:hover {
+        color: #666;
+        text-decoration: underline; }
