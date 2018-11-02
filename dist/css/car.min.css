@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+#car {
+  width: 988px;
+  margin: 0 auto; }
+  #car .logo {
+    height: 60px; }
+    #car .logo .service {
+      color: #7e7e7e;
+      font: 18px/48px ""; }
+  #car .title {
+    height: 33px;
+    background: url(../photo/bread-buy.jpg) no-repeat; }
+  #car .content {
+    width: 990px;
+    margin-top: 17px;
+    border: 1px solid #dddddd;
+    border-radius: 4px; }
+    #car .content .head {
+      width: 990px;
+      height: 36px;
+      background: #f3f3f3;
+      border-bottom: 1px solid #dddddd; }
+      #car .content .head ul {
+        line-height: 36px;
+        text-align: center; }
+        #car .content .head ul li {
+          float: left;
+          border-left: 1px solid #fff; }
+          #car .content .head ul li:nth-of-type(1) {
+            width: 435px;
+            border-left: 0; }
+          #car .content .head ul li:nth-of-type(2) {
+            width: 105px; }
+          #car .content .head ul li:nth-of-type(3) {
+            width: 95px; }
+          #car .content .head ul li:nth-of-type(4) {
+            width: 120px; }
+          #car .content .head ul li:nth-of-type(5) {
+            width: 120px; }
+          #car .content .head ul li:nth-of-type(6) {
+            width: 108px; }
+    #car .content .seller {
+      height: 35px;
+      background: #f9f9f9;
+      border-bottom: 1px solid #eee; }
+      #car .content .seller input {
+        margin: 10px 10px 0 15px; }
+    #car .content .list ul li {
+      height: 65px;
+      border-bottom: 1px solid #ddd; }
+      #car .content .list ul li .describe {
+        width: 435px;
+        margin-top: 4px; }
+        #car .content .list ul li .describe input {
+          margin-top: 20px;
+          vertical-align: top;
+          margin-left: 20px; }
+        #car .content .list ul li .describe img {
+          margin-left: 10px;
+          vertical-align: top; }
+        #car .content .list ul li .describe a {
+          display: inline-block;
+          color: #0066cc;
+          margin-left: 10px; }
+          #car .content .list ul li .describe a:hover {
+            text-decoration: underline; }
+      #car .content .list ul li .price, #car .content .list ul li .score, #car .content .list ul li .discounts {
+        width: 105px;
+        text-align: center;
+        color: #000;
+        line-height: 65px; }
+      #car .content .list ul li .score {
+        width: 95px; }
+      #car .content .list ul li .discounts {
+        width: 120px; }
+      #car .content .list ul li .quantity {
+        width: 120px;
+        padding-top: 20px; }
+        #car .content .list ul li .quantity input {
+          text-align: center;
+          cursor: pointer; }
+        #car .content .list ul li .quantity #minus, #car .content .list ul li .quantity #plus {
+          width: 14px;
+          height: 14px;
+          border: 1px solid #bdbdbd;
+          font: 14px/14px "";
+          color: #005ea7; }
+        #car .content .list ul li .quantity #txt {
+          width: 40px;
+          height: 20px;
+          border: 1px solid #ddd;
+          line-height: 20px; }
+      #car .content .list ul li .del {
+        width: 108px;
+        text-align: center; }
+        #car .content .list ul li .del a {
+          display: inline-block;
+          color: #06c;
+          line-height: 65px; }
+          #car .content .list ul li .del a:hover {
+            text-decoration: underline; }
+    #car .content .caculate {
+      height: 50px; }
+      #car .content .caculate .opera a {
+        margin-left: 38px;
+        color: #0066cc;
+        line-height: 50px; }
+        #car .content .caculate .opera a:hover {
+          text-decoration: underline; }
+      #car .content .caculate .total {
+        margin-right: 15px;
+        color: #000; }
+        #car .content .caculate .total .num {
+          line-height: 25px; }
+          #car .content .caculate .total .num span {
+            color: #c00; }
+        #car .content .caculate .total .type {
+          margin-left: 10px;
+          margin-right: 170px; }
+          #car .content .caculate .total .type p {
+            line-height: 25px; }
+        #car .content .caculate .total .money p {
+          line-height: 25px; }
+    #car .content .summation {
+      height: 40px;
+      background: #f3f3f3;
+      padding-right: 15px; }
+      #car .content .summation i {
+        margin-right: 160px;
+        line-height: 40px;
+        font-weight: 700; }
+      #car .content .summation span {
+        color: #c00;
+        font: 700 14px/40px ""; }
+  #car .behavior {
+    margin-top: 20px; }
+    #car .behavior .continue a {
+      display: block;
+      width: 118px;
+      height: 38px;
+      background: url(../photo/bread-buy.jpg) 0 -273px; }
+    #car .behavior .closeacc a {
+      display: block;
+      width: 160px;
+      height: 50px;
+      background: url(../photo/bread-buy.jpg) -123px -273px; }

@@ -1,0 +1,107 @@
+@import "public";
+*{margin:0;padding:0;}
+#car{
+	width:988px;margin:0 auto;
+	.logo{
+		height:60px;
+		.service{
+			color:#7e7e7e;font:18px/48px "";
+		}
+	}
+	.title{height:33px;background:url(../photo/bread-buy.jpg) no-repeat;}
+	.content{
+		width:990px;margin-top:17px;border:1px solid #dddddd;border-radius:4px;
+		.head{
+			width:990px;height:36px;background:#f3f3f3;border-bottom:1px solid #dddddd;
+			ul{
+				line-height:36px;text-align:center;
+				li{
+					float:left;border-left:1px solid #fff;
+					&:nth-of-type(1){width:435px;border-left:0;}
+					&:nth-of-type(2){width:105px;}
+					&:nth-of-type(3){width:95px;}
+					&:nth-of-type(4){width:120px;}
+					&:nth-of-type(5){width:120px;}
+					&:nth-of-type(6){width:108px;}
+				}
+			}
+		}
+		.seller{
+			height:35px;background:#f9f9f9;border-bottom:1px solid #eee;
+			input{
+				margin:10px 10px 0 15px;
+			}
+		}
+		.list{
+			ul{
+				li{
+					height:65px;border-bottom:1px solid #ddd;
+					.describe{
+						width:435px;margin-top:4px;
+						input{margin-top:20px;vertical-align:top;margin-left:20px;}
+						img{margin-left:10px;vertical-align:top;}
+						a{
+							display:$iblock;color:#0066cc;margin-left:10px;
+							&:hover{text-decoration:$under;}
+						}
+					}
+					.price,.score,.discounts{
+						width:105px;text-align:center;color:#000;line-height:65px;
+					}
+					.score{width:95px;}
+					.discounts{width:120px;}
+					.quantity{
+						width:120px;padding-top:20px;
+						input{text-align:center;cursor:pointer;}
+						#minus,#plus{width:14px;height:14px;border:1px solid #bdbdbd;font:14px/14px "";color:#005ea7;}
+						#txt{width:40px;height:20px;border:1px solid #ddd;line-height:20px;}
+					}
+					.del{
+						width:108px;text-align:center;
+						a{
+							display:$iblock;color:#06c;line-height:65px;
+							&:hover{text-decoration:$under;}
+						}
+					}
+				}
+			}
+		}
+		.caculate{
+			height:50px;
+			.opera{
+				a{
+					margin-left:38px;color:#0066cc;line-height:50px;
+					&:hover{text-decoration:$under;}
+				}
+			}
+			.total{
+				margin-right:15px;color:#000;
+				.num{
+					line-height:25px;
+					span{color:#c00;}
+				}
+				.type{
+					margin-left:10px;margin-right:170px;
+					p{line-height:25px;}
+				}
+				.money{
+					p{line-height:25px;}
+				}
+			}
+		}
+		.summation{
+			height:40px;background:#f3f3f3;padding-right:15px;
+			i{margin-right:160px;line-height:40px;font-weight:700;}
+			span{color:#c00;font:700 14px/40px "";}
+		}
+	}
+	.behavior{
+		margin-top:20px;
+		.continue{
+			a{display:block;width:118px;height:38px;background:url(../photo/bread-buy.jpg) 0 -273px;}
+		}
+		.closeacc{
+			a{display:block;width:160px;height:50px;background:url(../photo/bread-buy.jpg) -123px -273px;}
+		}
+	}
+}

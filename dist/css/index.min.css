@@ -340,12 +340,14 @@
 
 .banner {
   height: 480px;
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
   .banner .box {
     height: 480x;
     position: absolute; }
     .banner .box img {
       position: absolute;
+      left: -400px;
       opacity: 0; }
   .banner .find {
     position: absolute;

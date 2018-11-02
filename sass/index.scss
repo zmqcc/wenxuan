@@ -249,11 +249,12 @@
 }
 //轮播图
 .banner{
-	height:480px;position:relative;
+	height:480px;position:relative;overflow:hidden;
 	.box{
 		height:480x;position:absolute;
 		img{
 			position:absolute;
+			left:-400px;
 			opacity:0;
 		}
 	}

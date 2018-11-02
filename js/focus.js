@@ -61,22 +61,10 @@ define(function(){
 					"description":"解忧杂货店",
 					"price":"￥23.00",
 					"yuanprice":"￥33.00"
-				},
-				{
-					"img":"dist/image/1201508815_22_1.jpg",
-					"description":"红星照耀中国",
-					"price":"￥23.00",
-					"yuanprice":"￥33.00"
-				},
-				{
-					"img":"dist/image/1201607673_0_1_800x800.jpg",
-					"description":"原则",
-					"price":"￥23.00",
-					"yuanprice":"￥33.00"
 				}
 			]
 			var str="";
-			for(var i=0;i<10;i++){
+			for(var i=0;i<list.length;i++){
 				str+=`<li>
 									<a href="#">
 										<div class="book"><img src="${list[i].img}" ></div>
